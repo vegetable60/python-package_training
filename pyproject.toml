@@ -12,7 +12,7 @@ pytest = "^4.4"
 wemake-python-styleguide = "^0.8.1"
 
 [tool.poetry.scripts]
-hexlet-python-package = "hexlet_python_package.script.hexlet_python_package:main"
+hexlet-python-package = "hexlet_python_package.scripts.hexlet_python_package:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
