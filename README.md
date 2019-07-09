@@ -16,4 +16,4 @@ This project was built using these tools:
 |-----------------------------------------------------------------------------|---------------------------------------------------------|
 | [poetry](https://poetry.eustace.io/)                                        | "Python dependency management and packaging made easy"  |
 | [Py.Test](https://pytest.org)                                               | "A mature full-featured Python testing tool"            |
-| [wemake-python-styleguide](https://wemake-python-styleguide.readthedocs.io) | "the strictest and most opinionated python linter ever" |
+| [wemake-python-styleguide](https://wemake-python-stylegui.de)               | "the strictest and most opinionated python linter ever" |
