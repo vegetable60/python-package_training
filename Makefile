@@ -9,10 +9,15 @@ test:
 lint:
 	@poetry run flake8
 
-build: lint test
+selfcheck:
+	@poetry check
+
+check: selfcheck test lint
+
+build: check
 	@poetry build
 
 install: build
 	@pip install --user dist/hexlet_python_package*.whl
 
-.PHONY: all configure test lint build install
+.PHONY: all configure test lint selfcheck check build install
