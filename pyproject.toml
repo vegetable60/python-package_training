@@ -1,8 +1,10 @@
 [tool.poetry]
 name = "hexlet-python-package"
-version = "0.1.0"
 description = ""
 authors = ["skip"]
+
+[tool.poetry]
+version = "0.1.0"
 
 [tool.poetry.dependencies]
 python = "^3.6"
