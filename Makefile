@@ -1,5 +1,5 @@
 install:
-	@poetry install
+	poetry install
 
 test:
 	poetry run pytest hexlet_python_package tests
@@ -13,6 +13,6 @@ selfcheck:
 check: selfcheck test lint
 
 build: check
-	@poetry build
+	poetry build
 
 .PHONY: install test lint selfcheck check build
