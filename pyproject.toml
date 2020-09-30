@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-python-package"
-version = "0.2.0"
+version = "0.3.0"
 description = ""
 authors = ["skip"]
 
@@ -8,8 +8,8 @@ authors = ["skip"]
 python = "^3.6"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.4.1"
-wemake-python-styleguide = "^0.14.0"
+wemake-python-styleguide = "^0.14.1"
+pytest = "^6.1.0"
 
 [tool.poetry.scripts]
 hexlet-python-package = "hexlet_python_package.scripts.hexlet_python_package:main"
