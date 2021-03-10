@@ -4,6 +4,9 @@ install:
 test:
 	poetry run pytest hexlet_python_package tests
 
+test-coverage:
+	poetry run pytest --cov=gendiff --cov-report xml tests
+
 lint:
 	poetry run flake8 hexlet_python_package
 
