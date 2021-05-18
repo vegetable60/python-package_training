@@ -5,7 +5,7 @@ description = ""
 authors = ["skip"]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.3"
@@ -16,5 +16,5 @@ wemake-python-styleguide = "^0.15.2"
 hexlet-python-package = "hexlet_python_package.scripts.hexlet_python_package:main"
 
 [build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
