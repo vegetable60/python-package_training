@@ -1,7 +1,3 @@
-# -*- coding:utf-8 -*-
-
-"""An example script."""
-
 from hexlet_python_package import user
 
 

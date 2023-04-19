@@ -1,8 +1,3 @@
-# -*- coding:utf-8 -*-
-
-"""User representation."""
-
-
 class User(object):
     """Object representation of user."""
 

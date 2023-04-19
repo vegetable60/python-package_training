@@ -1,7 +1,3 @@
-# -*- coding:utf-8 -*-
-
-"""Users representation tests."""
-
 from hexlet_python_package.user import User
 
 
