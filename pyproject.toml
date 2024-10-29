@@ -1,19 +1,21 @@
-[project]
-authors = [
-    {name = "Hexlet team", email = "team@hexlet.io"},
-]
-requires-python = "<4.0,>=3.12"
-name = "python-example-app"
-version = "0.1.0"
-description = "Example application"
+[tool.poetry]
+name = "hexlet-python-package"
+version = "0.3.0"
+description = ""
+authors = ["skip"]
 readme = "README.md"
 
-[tool.uv]
-dev-dependencies = [
-    "ruff>=0.7.1",
-    "pytest>=8.3.3",
-    "pytest-cov>=5.0.0",
-]
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
 
-[project.scripts]
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+flake8 = "^6.1.0"
+
+[tool.poetry.scripts]
 hexlet-python-package = "hexlet_python_package.scripts.hexlet_python_package:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
