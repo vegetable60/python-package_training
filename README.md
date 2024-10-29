@@ -8,11 +8,19 @@
 
 This project was built using these tools:
 
+<<<<<<< HEAD
 | Tool                                                                        | Description                                             |
 |-----------------------------------------------------------------------------|---------------------------------------------------------|
 | [poetry](https://python-poetry.org/)                                        | "Python dependency management and packaging made easy"  |
 | [Py.Test](https://pytest.org)                                               | "A mature full-featured Python testing tool"            |
 | [flake8](https://flake8.pycqa.org/)                                         | "Your tool for style guide enforcement" |
+=======
+| Tool                                                                   | Description                                             |
+|------------------------------------------------------------------------|---------------------------------------------------------|
+| [uv](https://docs.astral.sh/uv/)                                       | "An extremely fast Python package and project manager, written in Rust" |
+| [Pytest](https://pytest.org)                                           | "A mature full-featured Python testing tool"            |
+| [ruff](https://docs.astral.sh/ruff/)                                   | "An extremely fast Python linter and code formatter, written in Rust" |
+>>>>>>> 3a2f12d (rework boilerpalte to use uv)
 
 ---
 
@@ -20,4 +28,8 @@ This project was built using these tools:
 
 This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet](https://hexlet.io/?utm_source=github&utm_medium=link&utm_campaign=python-package).
 
+<<<<<<< HEAD
 See most active contributors on [hexlet-friends](https://friends.hexlet.io/).
+=======
+See most active contributors on [hexlet-friends](https://friends.hexlet.io/).
+>>>>>>> 3a2f12d (rework boilerpalte to use uv)
