@@ -16,4 +16,11 @@ dev-dependencies = [
 ]
 
 [project.scripts]
-hexlet-python-package = "hexlet_python_package.scripts.hexlet_python_package:main"
+hexlet-python-package = "hexlet_python_package.scripts.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["hexlet_python_package"]

@@ -1,6 +1,9 @@
 install:
 	uv sync
 
+run:
+	uv run hexlet-python-package
+
 test:
 	uv run pytest
 
