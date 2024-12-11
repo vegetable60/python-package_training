@@ -1,6 +1,9 @@
 install:
 	poetry install
 
+run:
+	uv run hexlet-python-package
+
 test:
 	poetry run pytest
 
