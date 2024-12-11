@@ -8,11 +8,11 @@
 
 This project was built using these tools:
 
-| Tool                                                                   | Description                                             |
-|------------------------------------------------------------------------|---------------------------------------------------------|
-| [uv](https://docs.astral.sh/uv/)                                       | "An extremely fast Python package and project manager, written in Rust" |
-| [Pytest](https://pytest.org)                                           | "A mature full-featured Python testing tool"            |
-| [ruff](https://docs.astral.sh/ruff/)                                   | "An extremely fast Python linter and code formatter, written in Rust" |
+| Tool                                                                        | Description                                             |
+|-----------------------------------------------------------------------------|---------------------------------------------------------|
+| [poetry](https://python-poetry.org/)                                        | "Python dependency management and packaging made easy"  |
+| [Py.Test](https://pytest.org)                                               | "A mature full-featured Python testing tool"            |
+| [flake8](https://flake8.pycqa.org/)                                         | "Your tool for style guide enforcement" |
 
 ---
 
